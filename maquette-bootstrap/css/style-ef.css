@@ -1,0 +1,136 @@
+a:hover {
+  text-decoration: none;
+}
+.text-light-blue {
+  color: #67c2eb;
+}
+.bg-light-blue {
+  background-color: #67c2eb;
+}
+.btn-outline-light-blue {
+  border: 3px solid #67c2eb;
+}
+header ul.navbar-nav li.active a {
+  color: red !important;
+}
+header ul.navbar-nav li:last-child a {
+  color: #750000 !important;
+}
+header .teaser {
+  background: #666 url(/images/health-era--02.jpg) no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  border-top: 3px solid red;
+}
+header .call-to-action {
+  font-weight: 900;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+header .openHours {
+  background: url(/images/health-era--18.jpg) no-repeat;
+  background-size: cover;
+}
+header .appointment {
+  background: url(/images/health-era--07.jpg) no-repeat;
+  background-size: cover;
+}
+header .olineBillSystem {
+  background: url(/images/health-era--25.jpg) no-repeat;
+  background-size: cover;
+}
+header .olineBillSystem:before,
+header .openHours::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: rgba(0, 76, 168, 0.9);
+}
+header .appointment::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: rgba(22, 127, 255, 0.85);
+}
+header .teaser .icon {
+  font-size: 2.5rem;
+}
+footer {
+  background-color: #222 !important;
+}
+footer .social a {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  background: #555;
+  border-radius: 50%;
+}
+footer .legalBar {
+  background-color: #000 !important;
+}
+
+
+/* Gaétan */
+#textBloc-gf {
+  width: 40%;
+  border: 8px solid #eee !important;
+}
+#form-gf {
+  width: 60%;
+}
+#form-gf h4 {
+  font-family:serif;
+}
+#textBloc-gf div {
+  line-height: 16px;
+}
+.contact input {
+  border-style: none;
+  border: 1px solid #bbb;
+  border-left: none;
+  border-radius: 0;
+}
+.contact input::placeholder {
+  color: #bbb;
+}
+
+
+.team p {
+  line-height: 1.75 !important;
+}
+
+.latestNews {
+  height: 650px;
+}
+
+.servedSince {
+  background: url(../images/health-era--08.jpg) no-repeat;
+  background-size: cover;
+}
+.servedSince .bckg {
+  background: rgba(0, 76, 168, 0.85);
+}
+.servedSince .circle {
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 0 auto 0.5rem;
+}
+.servedSince .circle svg {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  margin: 1.5rem auto;
+}
+.servedSince .circle + div {
+  font-size: 3rem;
+  line-height: 1;
+}
